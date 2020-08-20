@@ -136,7 +136,7 @@ i:hover {
 }
 
 #header .nav-list ul.active {
-  left: 0px;
+  left: 20%;
 }
 
 #header .nav-list ul a{
@@ -185,7 +185,7 @@ i:hover {
   z-index: 100;
   cursor: pointer;
   transform:scale(0.8);
-  margin-right: 20px;
+  /* margin-right: 0px; */
 }
 
 #header .hamburger::after {
