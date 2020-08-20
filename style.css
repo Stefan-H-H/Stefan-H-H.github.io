@@ -557,6 +557,16 @@ footer p {
 }
 /* End Keyframes */
 
+
+/* Media Query For Mobile */
+@media only screen and (max-width:768px) and (min-width:320px) {
+  #projects .project-item .project-img img {
+    /* all images are brought forward */
+    transform: scale(1);
+  }
+}
+/* End Query for Mobile */
+
 /* Media Query For Tablet */
 @media only screen and (min-width:768px) {
   .cta {
