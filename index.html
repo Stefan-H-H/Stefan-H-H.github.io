@@ -1,170 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <title>Stefan Hristov | Software Engineer</title>
-</head>
-<body>
-  <!-- Nav-Bar Header -->
-  <section id="header">
-    <div class="header container">
-      <div class="nav-bar">
-        <div class="brand">
-          <a href="#home"><h1><span>S</span>tefan <span>H</span>ristov</h1></a>
-        </div>
-        <div class="nav-list">
-          <div class="hamburger"><div class="bar"></div></div>
-          <ul>
-            <li><a href="#home" data-after="Home">Home</a></li>
-            <li><a href="#about" data-after="About">About</a></li>
-            <li><a href="#projects" data-after="Projects">Projects</a></li>
-            <li><a href="#contact" data-after="Contact">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Nav-Bar Header -->
-  <!-- Home/hero Section -->
-  <section id="home">
-    <div class="home container">
-      <div>
-        <h1>Hello,<span></span></h1>
-        <h1>My Name is<span></span></h1>
-        <h1>Stefan<span></span></h1>
-        <a href="#projects" type="button" class="cta">Portfolio</a>
-      </div>
-    </div>
-  </section>
-  <!-- End home/hero Section -->
-  <!-- About Me Section -->
-  <section id="about">
-    <div class="about container">
-      <div class="col-left">
-        <div class="about-img">
-          <img src="./assets/img/headshot.png" alt="headshot-img">
-        </div>
-      </div>
-      <div class="col-right">
-        <h1 class="section-title">About <span>Me</span></h1>
-        <h2>Software Engineer</h2>
-        <p>Hello! I'm Stefan, a software engineer based in Seattle, WA.</p>
-        <p>I'm a Chemical Engineer turned Property Loss Control Engineer turned Software Engineer, having worked in industry for 6 years prior to the pursuit of a Master's in Computer Science.</p>
-        <p>In my previous career working for a large commercial property insurance provider that insures 1 in 3 of the Fortune 1000, I had the privilege to work with many clients from various industries. With that experience, I came to realize that we live in an era where the proliferation of massive amounts of data and information is a reality, and that even traditionally non-tech companies, industries, and marketplaces, have needed to adopt the frameworks and methods of major tech companies. Modern day has come to require modern methods, and everyone is seeking to stay competitive and continue to provide the best services possible with use of software.</p>
-        <p>As such, I've excitedly entered the world of computer science, where making impact at scale is the norm. True to my engineering background, I enjoy building things, whether that be websites, applications, or back-end solutions, with a goal of providing performant solutions that ultimately solve problems.</p>
-        <a href="./assets/Stefan_Hristov_Resume_Fall_2020.pdf" target="_blank" class="cta">Resume</a>
-      </div>
-    </div>
-  </section>
-  <!-- End About Me Section -->
-  <!-- Projects Section -->
-  <section id="projects">
-    <div class="projects container">
-      <div class="projects-header">
-        <h1 class="section-title">Recent <span>Projects</span></h1>
-      </div>
-      <div class="all-projects">
-        <div class="project-item">
-          <div class="project-info">
-            <h1>
-              CampFire
-            </h1>
-            <h2>MongoDB | Express | GraphQL | React | Node.js | HTML | CSS | Bootstrap</h2>
-            <p>A single page web app to help users stay connected with their friends, family, and professional contacts. App provides actionable reminders for the user to reach out to contacts to keep relationships strong, and allows the user to take notes of interactions.</p>
-            <h1>
-              <a target="_blank" href="https://github.com/Stefan-H-H/CampFire-API"><i class="fab fa-github"></i></a>
-              <a target="_blank" href="https://campfire-ui.herokuapp.com/"><i class="fas fa-external-link-alt"></i></a>
-            </h1>
+  </head>
+  <body>
+    <!-- Nav-Bar Header -->
+    <section id="header">
+      <div class="header container">
+        <div class="nav-bar">
+          <div class="brand">
+            <a href="#home"
+              ><h1><span>S</span>tefan <span>H</span>ristov</h1></a
+            >
           </div>
-          <div class="project-img">
-            <img src="./assets/img/campfire.png" alt="img">
-          </div>
-        </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>
-              Issue Tracker
-            </h1>
-            <h2>MongoDB | Express | GraphQL | React | Node.js | HTML | CSS | Bootstrap</h2>
-            <p>A single page web app intended to assist software engineers in tracking and triaging ongoing issues (bugs) during the software development process. Inspired by <a target="_blank" href="https://www.amazon.com/Pro-MERN-Stack-Development-Express/dp/1484243900">Pro MERN Stack</a> by Vasan Subramanian.</p>
-            <h1>
-              <a target="_blank" href="https://github.com/Stefan-H-H/Issue-Tracker"><i class="fab fa-github"></i></a>
-              <a target="_blank" href="https://tracker-ui-stefanhristov.herokuapp.com/"><i class="fas fa-external-link-alt"></i></a>
-            </h1>
-          </div>
-          <div class="project-img">
-            <img src="./assets/img/issuetracker.png" alt="img">
-          </div>
-        </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>
-              Othello
-            </h1>
-            <h2>Python | Processing</h2>
-            <p>Recreated a playable version of the board game othello using object-oriented design principles in Python. Utilized Processing for the creation of the graphical UI. Implemented an AI opponent that uses the greedy algorithm to determine piece placement.</p>
-            <h1>
-              <a target="_blank" href="https://github.com/Stefan-H-H/Othello"><i class="fab fa-github"></i></a>
-            </h1>
-          </div>
-          <div class="project-img">
-            <img src="./assets/img/Othello_Game_Over.png" alt="img">
+          <div class="nav-list">
+            <div class="hamburger"><div class="bar"></div></div>
+            <ul>
+              <li><a href="#home" data-after="Home">Home</a></li>
+              <li><a href="#about" data-after="About">About</a></li>
+              <li><a href="#projects" data-after="Projects">Projects</a></li>
+              <li><a href="#contact" data-after="Contact">Contact</a></li>
+            </ul>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- End Projects Section -->
-  <!-- Contact Section -->
-  <section id="contact">
-    <div class="contact container">
-      <div>
-        <h1 class="section-title">Contact <span>Info</span></h1>
+    </section>
+    <!-- End Nav-Bar Header -->
+    <!-- Home/hero Section -->
+    <section id="home">
+      <div class="home container">
+        <div>
+          <h1>Hello,<span></span></h1>
+          <h1>My Name is<span></span></h1>
+          <h1>Stefan<span></span></h1>
+          <a href="#projects" type="button" class="cta">Portfolio</a>
+        </div>
       </div>
-      <div class="contact-items">
-        <table class="contact-table">
-          <tr>
+    </section>
+    <!-- End home/hero Section -->
+    <!-- About Me Section -->
+    <section id="about">
+      <div class="about container">
+        <div class="col-left">
+          <div class="about-img">
+            <img src="./assets/img/headshot.png" alt="headshot-img" />
+          </div>
+        </div>
+        <div class="col-right">
+          <h1 class="section-title">About <span>Me</span></h1>
+          <h2>Software Engineer</h2>
+          <p>Hello! I'm Stefan, a software engineer based in Seattle, WA.</p>
+          <p>
+            I'm a Chemical Engineer turned Property Loss Control Engineer turned
+            Software Engineer, having worked in industry for 6 years prior to
+            the pursuit of a Master's in Computer Science.
+          </p>
+          <p>
+            In my previous career working for a large commercial property
+            insurance provider that insures 1 in 3 of the Fortune 1000, I had
+            the privilege to work with many clients from various industries.
+            With that experience, I came to realize that we live in an era where
+            the proliferation of massive amounts of data and information is a
+            reality, and that even traditionally non-tech companies, industries,
+            and marketplaces, have needed to adopt the frameworks and methods of
+            major tech companies. Modern day has come to require modern methods,
+            and everyone is seeking to stay competitive and continue to provide
+            the best services possible with use of software.
+          </p>
+          <p>
+            As such, I've excitedly entered the world of computer science, where
+            making impact at scale is the norm. True to my engineering
+            background, I enjoy building things, whether that be websites,
+            applications, or back-end solutions, with a goal of providing
+            performant solutions that ultimately solve problems.
+          </p>
+          <a
+            href="./assets/StefanHristov_Resume_MAR2021.pdf"
+            target="_blank"
+            class="cta"
+            >Resume</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- End About Me Section -->
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="projects container">
+        <div class="projects-header">
+          <h1 class="section-title">Recent <span>Projects</span></h1>
+        </div>
+        <div class="all-projects">
+          <div class="project-item">
+            <div class="project-info">
+              <h1>CampFire</h1>
+              <h2>
+                MongoDB | Express | GraphQL | React | Node.js | HTML | CSS |
+                Bootstrap
+              </h2>
+              <p>
+                A single page web app to help users stay connected with their
+                friends, family, and professional contacts. App provides
+                actionable reminders for the user to reach out to contacts to
+                keep relationships strong, and allows the user to take notes of
+                interactions.
+              </p>
+              <h1>
+                <a
+                  target="_blank"
+                  href="https://github.com/Stefan-H-H/CampFire-API"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a target="_blank" href="https://campfire-ui.herokuapp.com/"
+                  ><i class="fas fa-external-link-alt"></i
+                ></a>
+              </h1>
+            </div>
+            <div class="project-img">
+              <img src="./assets/img/campfire.png" alt="img" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Issue Tracker</h1>
+              <h2>
+                MongoDB | Express | GraphQL | React | Node.js | HTML | CSS |
+                Bootstrap
+              </h2>
+              <p>
+                A single page web app intended to assist software engineers in
+                tracking and triaging ongoing issues (bugs) during the software
+                development process. Inspired by
+                <a
+                  target="_blank"
+                  href="https://www.amazon.com/Pro-MERN-Stack-Development-Express/dp/1484243900"
+                  >Pro MERN Stack</a
+                >
+                by Vasan Subramanian.
+              </p>
+              <h1>
+                <a
+                  target="_blank"
+                  href="https://github.com/Stefan-H-H/Issue-Tracker"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a
+                  target="_blank"
+                  href="https://tracker-ui-stefanhristov.herokuapp.com/"
+                  ><i class="fas fa-external-link-alt"></i
+                ></a>
+              </h1>
+            </div>
+            <div class="project-img">
+              <img src="./assets/img/issuetracker.png" alt="img" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Othello</h1>
+              <h2>Python | Processing</h2>
+              <p>
+                Recreated a playable version of the board game othello using
+                object-oriented design principles in Python. Utilized Processing
+                for the creation of the graphical UI. Implemented an AI opponent
+                that uses the greedy algorithm to determine piece placement.
+              </p>
+              <h1>
+                <a target="_blank" href="https://github.com/Stefan-H-H/Othello"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </h1>
+            </div>
+            <div class="project-img">
+              <img src="./assets/img/Othello_Game_Over.png" alt="img" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Trivia Quiz!</h1>
+              <h2>React | Bootstrap | HTML | CSS</h2>
+              <p>
+                A trivia application that retrieves trivia questions from the
+                remote JSON API of the
+                <a target="_blank" href="https://opentdb.com/"
+                  >Open Trivia Database.</a
+                >
+                The application allows the user to configure the game play.
+              </p>
+              <h1>
+                <a
+                  target="_blank"
+                  href="https://github.com/Stefan-H-H/TriviaQuiz"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a
+                  target="_blank"
+                  href="https://pages.github.ccs.neu.edu/cs7580sp21-seattle/stefan_hristov_assignment3/"
+                  ><i class="fas fa-external-link-alt"></i
+                ></a>
+              </h1>
+            </div>
+            <div class="project-img">
+              <img src="./assets/img/TriviaQuiz.png" alt="img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="contact container">
+        <div>
+          <h1 class="section-title">Contact <span>Info</span></h1>
+        </div>
+        <div class="contact-items">
+          <table class="contact-table">
+            <tr>
               <th>LinkedIn</th>
               <th>Github</th>
               <th>Email</th>
-          </tr>
-          <tr>
+            </tr>
+            <tr>
               <td>
-                  <a target="_blank" href="https://www.linkedin.com/in/stefanhristov/">
-                      <i class="fab fa-linkedin"></i>
-                  </a>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/stefanhristov/"
+                >
+                  <i class="fab fa-linkedin"></i>
+                </a>
               </td>
               <td>
-                  <a target="_blank" href="https://github.com/Stefan-H-H">
-                      <i class="fab fa-github"></i>
-                  </a>
+                <a target="_blank" href="https://github.com/Stefan-H-H">
+                  <i class="fab fa-github"></i>
+                </a>
               </td>
               <td>
-                  <a href="mailto:hristovstefan222@gmail.com">
-                      <i class="fas fa-envelope"></i>
-                  </a>
+                <a href="mailto:hristovstefan222@gmail.com">
+                  <i class="fas fa-envelope"></i>
+                </a>
               </td>
-          </tr>
-        </table>
+            </tr>
+          </table>
+        </div>
       </div>
-    </div>
-  </section>
-  <!-- End Contact Section -->
-  <!-- Footer Section -->
-  <footer>
-    <div class="footer container">
-      <div class="brand"><h1><span>S</span>tefan <span>H</span>ristov</h1></div>
-      <p>Built by Stefan Hristov, 2020</p>
-    </div>
-  </footer>
-  <!-- End Footer Section -->
-  <script src="app.js"></script>
-</body>
+    </section>
+    <!-- End Contact Section -->
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer container">
+        <div class="brand">
+          <h1><span>S</span>tefan <span>H</span>ristov</h1>
+        </div>
+        <p>Built by Stefan Hristov, 2020</p>
+      </div>
+    </footer>
+    <!-- End Footer Section -->
+    <script src="app.js"></script>
+  </body>
 </html>
